@@ -6,10 +6,3 @@ window.addEventListener('message', (event) => {
         loading.classList.add('hidden');
     }
 });
-
-// 備用方案：如果 3 秒後還沒收到訊息，就隱藏 loading
-setTimeout(() => {
-    if (!loading.classList.contains('hidden')) {
-        loading.classList.add('hidden');
-    }
-}, 3000);
