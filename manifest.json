@@ -1,11 +1,11 @@
 {
-    "manifest_version": 3,
     "name": "Hot Now｜熱門話題一把抓",
     "version": "1.0",
-    "description": "用 Hot Now 隨時掌握最新熱門話題。",
+    "manifest_version": 3,
     "chrome_url_overrides": {
         "newtab": "newtab.html"
     },
+    "permissions": ["storage"],
     "icons": {
         "16": "icons/favicon-16x16.png",
         "32": "icons/favicon-32x32.png",
@@ -14,7 +14,5 @@
     },
     "content_security_policy": {
         "extension_pages": "script-src 'self'; object-src 'self';"
-    },
-    "permissions": [],
-    "host_permissions": ["https://hotnow.garylin.dev/*"]
+    }
 }
