@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Hot Now｜熱門話題一把抓",
     "version": "1.0",
-    "description": "用 HotNow 隨時掌握最新熱門話題。",
+    "description": "用 Hot Now 隨時掌握最新熱門話題。",
     "chrome_url_overrides": {
         "newtab": "newtab.html"
     },
