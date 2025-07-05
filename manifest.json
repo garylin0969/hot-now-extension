@@ -11,5 +11,10 @@
         "32": "icons/favicon-32x32.png",
         "192": "icons/android-chrome-192x192.png",
         "512": "icons/android-chrome-512x512.png"
-    }
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self';"
+    },
+    "permissions": [],
+    "host_permissions": ["https://hotnow.garylin.dev/*"]
 }
