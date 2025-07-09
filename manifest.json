@@ -1,6 +1,6 @@
 {
     "name": "Hot Now｜熱門話題一把抓",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "掌握熱門網路討論話題",
     "manifest_version": 3,
     "chrome_url_overrides": {
