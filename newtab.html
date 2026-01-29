@@ -1,3 +1,7 @@
+<!--
+  New Tab 頁面結構。
+  包含一個載入動畫容器和一個嵌入的 iframe。
+-->
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,6 +17,7 @@
         border: none;
         overflow: hidden;
       }
+      /* 載入動畫容器樣式 */
       .loading-container {
         display: flex;
         justify-content: center;
@@ -38,15 +43,19 @@
   </head>
 
   <body>
+    <!-- 載入動畫容器：在 iframe 內容準備好之前顯示 -->
     <div class="loading-container" id="loading">
       <img src="/icons/favicon-32x32.png" alt="loading logo" />
     </div>
 
+    <!-- 嵌入外部應用程式的 iframe -->
+    <!-- frameborder="0"：移除 iframe 的邊框 -->
     <iframe
       src="https://hotnow.garylin.dev"
       frameborder="0"
     ></iframe>
 
+    <!-- 載入邏輯腳本 -->
     <script src="script.js"></script>
   </body>
 </html>
