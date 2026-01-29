@@ -14,9 +14,9 @@ You can install this extension from the Chrome Web Store:
 
 ## Features 功能特點
 
--   Shows trending topics on every new tab 在每個新分頁顯示熱門話題
--   Clean and simple interface 簡潔的使用者介面
--   No personal information collection 不收集個人資訊
+- Shows trending topics on every new tab 在每個新分頁顯示熱門話題
+- Clean and simple interface 簡潔的使用者介面
+- No personal information collection 不收集個人資訊
 
 ## Privacy 隱私權政策
 
@@ -33,7 +33,3 @@ For more details, please visit: [https://hotnow.garylin.dev](https://hotnow.gary
 ## Developer Contact 開發者聯絡方式
 
 Email: garylin0969@gmail.com
-
-## License 授權條款
-
-© 2024 Gary Lin. All Rights Reserved.
